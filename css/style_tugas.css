@@ -140,7 +140,7 @@ nav ul li a{
 .box-3 button {
     width: 100px;
     height: 30px;
-    background-color: #FFFFFF;
+    background-color: #ff0000;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -151,11 +151,14 @@ nav ul li a{
 .box-1 button:hover,
 .box-2 button:hover,
 .box-3 button:hover {
-    background-color: #8f8f8f; /* Ubah warna latar belakang saat dihover */
+    background-color: #ff0000; /* Ubah warna latar belakang saat dihover */
     color: #fff; /* Ubah warna teks saat dihover */
 }
 
- 
+a {
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    color: #ffffff; /* Mengubah warna teks tautan (contoh: biru tua) */
+}
 /* Style for Popup */
 .popup {
     display: none;
@@ -185,4 +188,12 @@ nav ul li a{
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+button {
+    background-color: #ff0000; /* Warna latar belakang tombol (contoh: hijau) */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol (atas-bawah kiri-kanan) */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer; /* Mengubah ikon kursor menjadi tangan ketika diarahkan ke tombol */
 }
